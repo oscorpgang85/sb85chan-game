@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>sb85 chan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+  <div id="game-container">
+
+    <div id="loading-screen">
+      <img src="img/backgrounds/loadingscreen.png" id="loading-img">
+    </div>
+
+
+    <!-- START SCREEN -->
+    <div id="start-screen">
+      <img src="img/backgrounds/start screen.png" id="start-bg">
+      <img id="day-indicator" src="" style="display: none;">
+      <img src="img/ui/start button.png" id="start-btn">
+    </div>
+
+    <!-- GAME SCREEN -->
+    <div id="game-screen" style="display: none;">
+      <img id="background" src="img/backgrounds/tlo1.png">
+      <img id="character" src="img/character/char_1_idle.png">
+
+      <!-- FOOD SLOTS -->
+      <img class="food-slot" id="food1">
+      <img class="food-slot" id="food2">
+      <img class="food-slot" id="food3">
+
+      <!-- LICZNIK RUND -->
+      <div id="round-counter">0 / 20</div>
+
+      <!-- RED TINT OVERLAY -->
+      <div id="red-tint"></div>
+    </div>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
